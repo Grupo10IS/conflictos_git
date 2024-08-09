@@ -23,16 +23,11 @@ El ejercicio 3 consiste en realizar una reversion de los cambios realizados en o
 (investigar `git revert`), para poder recuperar el estado original del repositorio con el
 commit `initial commit`.
 
-_NOTA_:
-En este paso se deberia de eliminar el archivo de `Instrucciones.md`.
-Es normal, pero REVISE EL HISTORIAL DE COMMITS (`git log` y `git reflog`).
-
 ## Ejercicio 4. Revertir el historial de commits
 
-Vea que ocurre con el historial de commits despues de `git revert`.
-
-Investigue si existe una forma de **resetear** el historial de commits hasta el commit con el
-mensaje `initial commit`.
+Vea que ocurre con `git revert`.
+Investigue si existe una forma de **resetear** el historial de commits hasta el punto inicial.
+Luego de lograrlo realice un push forzado a su rama.
 
 ## Ejercicio 5. Rebase
 
@@ -41,7 +36,7 @@ Primero realice los cambios pedidos en el ejercicio 1 y haga rebase de los cambi
 `ejercicio2`.
 Luego resuelva los conflictos de haberlos.
 
-Al final haga un push con sus cambios (forzados de ser necesario).
+Al final haga un push con sus cambios.
 
 ## Ejercicio 6. Pull request
 
